@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header, main, footer{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 1200px;
+}
+
+main{
+    background-color: white;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* CABECERA */
+
+header{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.enlaces{
+    margin-left: 630px;
+}
+
+header img{
+    width: 250px;
+    margin-left: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header a:hover{
+    color: yellow;
+}
+
+    /* PRINCIPAL */
+
+/* PRINCIPAL-DELIVERY */
+
+.infoPrincipal{
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    height: 450px;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner h2{
+    position: relative;
+    right: 395px;
+    bottom: 15px;
+    font-size: 22px;
+    color: red;
+}
+
+.banner span{
+    color: white;
+}
+
+/* PRINCIPAL-MENU */
+
+.menu{
+    display: flex;
+}
+
+.menu img{
+    height: 150px;
+    margin-top: 160px;
+}
+
+.menuTexto{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.menuTexto ol{
+    position: relative;
+    font-size: 18px;
+    right: 220px;
+    bottom: 10px;
+    line-height: 35px;
+}
+
+.menuTexto h4{
+    font-size: 22px;
+    position: relative;
+    right: 180px;
+
+}
+
+.menuTexto h3{
+    position: relative;
+    right: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer{
+    background-color: #222222;
+}
+
+footer img{
+    width: 250px;
+    margin-left: 830px;
+}
+
+.enlacesFooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.enlacesFooter a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 35px;
+}
+
+.enlacesFooter a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
